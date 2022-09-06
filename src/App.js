@@ -84,11 +84,6 @@ function App() {
         </Route>
       </Switch>
 
-      <div className="card cardColor">
-        <div className="card-footer justify-content-center align-items-center h-100 text-center cardColor">
-          <div className="imagenFooter text-center"></div>
-        </div>
-      </div>
     </Router>
 
 

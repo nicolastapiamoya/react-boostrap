@@ -283,11 +283,6 @@ const Inicio = () => {
 
             </section>
 
-
-
-
-            <br></br>
-            <Contacto></Contacto>
         </div>
 
 
