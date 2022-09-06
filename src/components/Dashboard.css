@@ -1,0 +1,20 @@
+:root{
+    --offcanvas-width: 270px !important; 
+    --topNavBarHeight: 56px !important;
+}
+
+.sildebar-nav{
+    width: var(--offcanvas-width) !important;
+}
+
+@media (min-width: 992px) {
+    .offcanvas-backdrop::before{
+        display: none !important;
+    }
+    .sildebar-nav{
+        transform: none;
+        visibility: visible !important;
+        top: var(--topNavBarHeight) !important;
+        height: calc(100% - var(--topNavBarHeight));
+    }
+}

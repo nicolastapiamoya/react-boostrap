@@ -1,0 +1,196 @@
+
+.seccionRow{
+    padding: 30px;
+    background: rgb(34,86,61);
+
+    
+}
+
+.seccionRow2{
+    padding: 30px;
+    background: rgb(41, 59, 95);
+}
+
+.card{
+    border: 0px !important;
+    border-radius: 0px !important;
+    background: none !important;
+}
+
+.img-thumbnail{
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.cardColor{
+    background-color: none !important;
+    color: rgb(136,171,154);
+    font-size: 18px;
+}
+
+.carColorTitle{
+    color: white !important;
+    font-size: 20px;
+}
+
+/*.cardSlider{
+    color: white !important;
+    left: 200px;
+    bottom: 400px;
+    width: 22rem;
+    text-align: center;
+    background:  rgb(34,86,61,0.8) !important;
+    font-size: 18px;
+}
+
+.carousel{
+
+    margin-bottom: -350px;
+}*/
+
+.colorRowQuienSomos{
+    background: rgb(118, 106, 199);
+}
+
+.colorRowCaracterisitcas{
+    background: rgb(255, 241, 253);
+}
+
+.colorRoxProximamente{
+    background: rgb(237, 142, 62)
+}
+
+.colorRowImage{
+    background-image: 
+    linear-gradient(
+        rgb(34,86,61,0.5),
+      rgb(34,86,61,0.5)
+    ),
+    url(https://1.bp.blogspot.com/-GZKjhqdzzaI/XwYH1MmS27I/AAAAAAAA7RI/ne66aMdR_qkjQRZITNoZyjLVes1X6YYmwCK4BGAsYHg/s1000/8237-Scale-esterne.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.imageCarousel1{
+    background-image: 
+    linear-gradient(
+        rgb(0,0,0,0.5),
+      rgb(0,0,0,0.5)
+    ),
+    url(https://3.bp.blogspot.com/-pzFa0fL8Atg/Wk484ozxbbI/AAAAAAAAQso/uPsDejEVUD8xn7u41isXBtxykEywDt4mQCLcBGAs/s1600/SGAAVI_10StarHouse_SoCWvr-Cape-Paterson-Display-58-1500px-1600x1068.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.imageCarousel2{
+    background-image: 
+    linear-gradient(
+        rgb(0,0,0,0.5),
+      rgb(0,0,0,0.5)
+    ),
+    url(http://thesociableweaver.com.au/wp-content/uploads/2017/06/SocWvr-Cape-Patterson-Display-64-1500px.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.imageCarousel3{
+    background-image: 
+    linear-gradient(
+        rgb(0,0,0,0.5),
+      rgb(0,0,0,0.5)
+    ),
+    url(https://images.adsttc.com/media/images/5d34/e507/284d/d109/5600/0240/newsletter/_FI.jpg?1563747560);
+    height: 800px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.tamañoTexto{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.tamañoTituloTextoQuienSomos{
+    font-weight: bold;
+    font-size: 65px;
+    color: white;
+}
+
+.tamañoTextoQuienSomos{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.marginTexto{
+   
+    margin-bottom: -15px;
+    
+}
+
+.margins{
+    margin-top: 95px;
+}
+
+.card3Cosas{
+  margin: 50px;
+}
+
+.cardColorPlanes{
+    background: white;
+}
+
+.cardStylePlanes{
+    border: none;
+    border-radius: 10px
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    margin-left: 70px;
+    border-radius: 25px;
+    border: 0px;
+    background: rgb(49, 1, 255);
+    color: white !important;
+  }
+
+@media only screen and (max-width: 800px){
+
+    .card3Cosas{
+        height: 250px;
+        width: 35% !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .imageCarousel1{
+        height: 500px;
+    }
+    .imageCarousel2{
+        height: 500px;
+    }
+    .imageCarousel3{
+        height: 500px;
+    }
+
+    .card3Cosas{
+        height: 250px;
+        width: 60% !important;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+
+    .card3Cosas{
+        height: 200px;
+        width: 50% !important;
+    }
+
+}
